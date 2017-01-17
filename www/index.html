@@ -38,10 +38,20 @@
 
     <ion-pane>
         <ion-header-bar class="bar-stable">
-            <h1 class="title">Ensayo loginfb</h1>
-            <button class="button button-full button-positive " ng-click="loginfb()">
-          Login
-        </button>
+            <h1 class="title">Login 1.0.0</h1>
+            <div class="list">
+                <label class="item item-input">
+                <input type="text" placeholder="Mail" ng-model="mail">
+              </label>0
+
+                <label class="item item-input">
+                <input type="password" placeholder="******" ng-model="password">
+              </label>
+
+                <button class="button button-small" ng-click="LoginCtrl()">
+                Submit
+              </button>
+            </div>
         </ion-header-bar>
         <ion-content>
         </ion-content>
